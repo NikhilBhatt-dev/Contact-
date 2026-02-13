@@ -1,9 +1,9 @@
 import logo from "../../assets/react.svg";
 import  "../../App.css"
-// import styles from "./Nav.module.css"
+import styles from "./Nav.module.css"
 const Nav = ()=>{
     return (
-       <nav className="container">
+       <nav className= {`${styles.nav} container`}>
         <div className="logo">
             <img src={logo} alt="logo" />
         </div>
