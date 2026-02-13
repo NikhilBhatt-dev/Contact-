@@ -1,5 +1,6 @@
-import logo from "../assets/react.svg"
-import  "../App.css"
+import logo from "../../assets/react.svg";
+import  "../../App.css"
+// import styles from "./Nav.module.css"
 const Nav = ()=>{
     return (
        <nav className="container">
